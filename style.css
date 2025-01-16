@@ -1,0 +1,158 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body & Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Header Section */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #ffffff;
+  color: black;
+  margin-bottom: 40px;
+}
+
+.profile {
+  flex: 1;
+  text-align: center;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.bio {
+  flex: 2;
+  text-align: left;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: lighter;
+  margin-bottom: 20px;
+  color: grey;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icon {
+  width: 30px;
+  margin: 0 10px;
+}
+
+/* About Section */
+.about {
+  padding: 40px 0;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+/* Projects Section */
+.projects {
+  padding: 40px 0;
+}
+
+.project {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.project-img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.project-description h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project-description p {
+  font-size: 1rem;
+}
+
+/* Blog Section */
+.blog {
+  background-color: #eee;
+  padding: 40px 0;
+}
+
+.blog ul {
+  list-style: none;
+}
+
+.blog ul li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.blog a {
+  text-decoration: none;
+  color: #4CAF50;
+}
+
+.blog a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Section */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* Styling for the Quote Section */
+.quote {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+  margin-top: 40px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.quote blockquote {
+  font-size: 1.5em;
+  font-style: italic;
+  color: #555;
+  margin: 0;
+}
